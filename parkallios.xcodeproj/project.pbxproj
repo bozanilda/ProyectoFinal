@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E8E6FCF32CE460B2006EE07E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8E6FCD42CE460B1006EE07E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8E6FCDB2CE460B1006EE07E;
+			remoteInfo = parkallios;
+		};
+		E8E6FCFD2CE460B3006EE07E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8E6FCD42CE460B1006EE07E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8E6FCDB2CE460B1006EE07E;
+			remoteInfo = parkallios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8E6FCDC2CE460B1006EE07E /* parkallios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parkallios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E6FCF22CE460B2006EE07E /* parkalliosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parkalliosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E6FCFC2CE460B3006EE07E /* parkalliosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parkalliosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E8E6FD042CE460B3006EE07E /* Exceptions for "parkallios" folder in "parkallios" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E8E6FCDB2CE460B1006EE07E /* parkallios */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E8E6FCDE2CE460B1006EE07E /* parkallios */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E8E6FD042CE460B3006EE07E /* Exceptions for "parkallios" folder in "parkallios" target */,
+			);
+			path = parkallios;
+			sourceTree = "<group>";
+		};
+		E8E6FCF52CE460B3006EE07E /* parkalliosTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = parkalliosTests;
+			sourceTree = "<group>";
+		};
+		E8E6FCFF2CE460B3006EE07E /* parkalliosUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = parkalliosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8E6FCD92CE460B1006EE07E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E6FCEF2CE460B2006EE07E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E6FCF92CE460B3006EE07E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8E6FCD32CE460B1006EE07E = {
+			isa = PBXGroup;
+			children = (
+				E8E6FCDE2CE460B1006EE07E /* parkallios */,
+				E8E6FCF52CE460B3006EE07E /* parkalliosTests */,
+				E8E6FCFF2CE460B3006EE07E /* parkalliosUITests */,
+				E8E6FCDD2CE460B1006EE07E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8E6FCDD2CE460B1006EE07E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8E6FCDC2CE460B1006EE07E /* parkallios.app */,
+				E8E6FCF22CE460B2006EE07E /* parkalliosTests.xctest */,
+				E8E6FCFC2CE460B3006EE07E /* parkalliosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8E6FCDB2CE460B1006EE07E /* parkallios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E6FD052CE460B3006EE07E /* Build configuration list for PBXNativeTarget "parkallios" */;
+			buildPhases = (
+				E8E6FCD82CE460B1006EE07E /* Sources */,
+				E8E6FCD92CE460B1006EE07E /* Frameworks */,
+				E8E6FCDA2CE460B1006EE07E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E8E6FCDE2CE460B1006EE07E /* parkallios */,
+			);
+			name = parkallios;
+			packageProductDependencies = (
+			);
+			productName = parkallios;
+			productReference = E8E6FCDC2CE460B1006EE07E /* parkallios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8E6FCF12CE460B2006EE07E /* parkalliosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E6FD0A2CE460B3006EE07E /* Build configuration list for PBXNativeTarget "parkalliosTests" */;
+			buildPhases = (
+				E8E6FCEE2CE460B2006EE07E /* Sources */,
+				E8E6FCEF2CE460B2006EE07E /* Frameworks */,
+				E8E6FCF02CE460B2006EE07E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8E6FCF42CE460B2006EE07E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E8E6FCF52CE460B3006EE07E /* parkalliosTests */,
+			);
+			name = parkalliosTests;
+			packageProductDependencies = (
+			);
+			productName = parkalliosTests;
+			productReference = E8E6FCF22CE460B2006EE07E /* parkalliosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8E6FCFB2CE460B3006EE07E /* parkalliosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E6FD0D2CE460B3006EE07E /* Build configuration list for PBXNativeTarget "parkalliosUITests" */;
+			buildPhases = (
+				E8E6FCF82CE460B3006EE07E /* Sources */,
+				E8E6FCF92CE460B3006EE07E /* Frameworks */,
+				E8E6FCFA2CE460B3006EE07E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8E6FCFE2CE460B3006EE07E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E8E6FCFF2CE460B3006EE07E /* parkalliosUITests */,
+			);
+			name = parkalliosUITests;
+			packageProductDependencies = (
+			);
+			productName = parkalliosUITests;
+			productReference = E8E6FCFC2CE460B3006EE07E /* parkalliosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8E6FCD42CE460B1006EE07E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					E8E6FCDB2CE460B1006EE07E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					E8E6FCF12CE460B2006EE07E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = E8E6FCDB2CE460B1006EE07E;
+					};
+					E8E6FCFB2CE460B3006EE07E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = E8E6FCDB2CE460B1006EE07E;
+					};
+				};
+			};
+			buildConfigurationList = E8E6FCD72CE460B1006EE07E /* Build configuration list for PBXProject "parkallios" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8E6FCD32CE460B1006EE07E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E8E6FCDD2CE460B1006EE07E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8E6FCDB2CE460B1006EE07E /* parkallios */,
+				E8E6FCF12CE460B2006EE07E /* parkalliosTests */,
+				E8E6FCFB2CE460B3006EE07E /* parkalliosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8E6FCDA2CE460B1006EE07E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E6FCF02CE460B2006EE07E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E6FCFA2CE460B3006EE07E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8E6FCD82CE460B1006EE07E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E6FCEE2CE460B2006EE07E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8E6FCF82CE460B3006EE07E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8E6FCF42CE460B2006EE07E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8E6FCDB2CE460B1006EE07E /* parkallios */;
+			targetProxy = E8E6FCF32CE460B2006EE07E /* PBXContainerItemProxy */;
+		};
+		E8E6FCFE2CE460B3006EE07E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8E6FCDB2CE460B1006EE07E /* parkallios */;
+			targetProxy = E8E6FCFD2CE460B3006EE07E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E8E6FD062CE460B3006EE07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = parkallios/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parkAll.parkallios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8E6FD072CE460B3006EE07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = parkallios/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parkAll.parkallios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E8E6FD082CE460B3006EE07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8E6FD092CE460B3006EE07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8E6FD0B2CE460B3006EE07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parkAll.parkalliosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/parkallios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/parkallios";
+			};
+			name = Debug;
+		};
+		E8E6FD0C2CE460B3006EE07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parkAll.parkalliosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/parkallios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/parkallios";
+			};
+			name = Release;
+		};
+		E8E6FD0E2CE460B3006EE07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parkAll.parkalliosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = parkallios;
+			};
+			name = Debug;
+		};
+		E8E6FD0F2CE460B3006EE07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parkAll.parkalliosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = parkallios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8E6FCD72CE460B1006EE07E /* Build configuration list for PBXProject "parkallios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E6FD082CE460B3006EE07E /* Debug */,
+				E8E6FD092CE460B3006EE07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8E6FD052CE460B3006EE07E /* Build configuration list for PBXNativeTarget "parkallios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E6FD062CE460B3006EE07E /* Debug */,
+				E8E6FD072CE460B3006EE07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8E6FD0A2CE460B3006EE07E /* Build configuration list for PBXNativeTarget "parkalliosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E6FD0B2CE460B3006EE07E /* Debug */,
+				E8E6FD0C2CE460B3006EE07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8E6FD0D2CE460B3006EE07E /* Build configuration list for PBXNativeTarget "parkalliosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E6FD0E2CE460B3006EE07E /* Debug */,
+				E8E6FD0F2CE460B3006EE07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8E6FCD42CE460B1006EE07E /* Project object */;
+}
