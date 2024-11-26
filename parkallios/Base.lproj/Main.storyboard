@@ -232,10 +232,10 @@
             </objects>
             <point key="canvasLocation" x="2825" y="-20"/>
         </scene>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="parkallios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="parkallios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -257,9 +257,8 @@
                                         <color key="textColor" red="0.34117650989999998" green="0.25098040700000002" blue="0.40784314269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3M5-iv-sQd">
-                                        <rect key="frame" x="54" y="390" width="288" height="36"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3M5-iv-sQd">
+                                        <rect key="frame" x="159" y="389" width="75" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" textContentType="username"/>
                                     </textField>
@@ -316,7 +315,9 @@
                                 <viewLayoutGuide key="safeArea" id="o4g-G4-lMY"/>
                                 <color key="backgroundColor" red="0.92941176889999999" green="0.90196079019999997" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
+                                    <constraint firstItem="3M5-iv-sQd" firstAttribute="top" secondItem="RKH-Sx-1pY" secondAttribute="bottom" constant="30" id="65c-Pr-DHk"/>
                                     <constraint firstItem="IbA-Ll-9n4" firstAttribute="top" secondItem="o4g-G4-lMY" secondAttribute="top" constant="100" id="7Oh-pv-ijS"/>
+                                    <constraint firstItem="3M5-iv-sQd" firstAttribute="centerX" secondItem="Aeg-GQ-yRD" secondAttribute="centerX" id="SyC-un-ncA"/>
                                     <constraint firstItem="IbA-Ll-9n4" firstAttribute="centerX" secondItem="Aeg-GQ-yRD" secondAttribute="centerX" id="aRb-aH-BVX"/>
                                     <constraint firstItem="RKH-Sx-1pY" firstAttribute="top" secondItem="IbA-Ll-9n4" secondAttribute="bottom" constant="20" id="jDR-NN-VXc"/>
                                     <constraint firstItem="RKH-Sx-1pY" firstAttribute="centerX" secondItem="Aeg-GQ-yRD" secondAttribute="centerX" id="nOB-0d-aXK"/>
