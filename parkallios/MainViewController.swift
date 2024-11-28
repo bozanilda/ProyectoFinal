@@ -51,4 +51,15 @@ class MainViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         self.present(alert, animated: true, completion: nil)
     }
+    private func showAlertWithRedirect(message: String) {
+            let alert = UIAlertController(title: "Mensaje", message: message, preferredStyle: .alert)
+            let okAction = UIAlertAction(title: "OK", style: .default) { _ in
+                // Redirigir a la pantalla de ubicación
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let locationVC = storyboard.instantiateViewController(withIdentifier: "LocationViewController") as! LocationViewController
+                self.navigationController?.pushViewController(locationVC, animated: true)
+            }
+            alert.addAction(okAction)
+            self.present(alert, animated: true, completion: nil)
+        }
 }

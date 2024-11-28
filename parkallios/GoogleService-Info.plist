@@ -26,5 +26,7 @@
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:165347808730:ios:6092151f3d9706876a9ce3</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+<string>Esta aplicación necesita acceder a tu ubicación para mostrar tu posición en el mapa.</string>
 </dict>
 </plist>
