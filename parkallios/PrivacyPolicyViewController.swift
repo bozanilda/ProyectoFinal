@@ -10,7 +10,7 @@ import WebKit
 
 
 class PrivacyPolicyViewController: UIViewController {
-    @IBOutlet weak var webView: WKWebView!
+    @IBOutlet weak var webView2: WKWebView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +18,7 @@ class PrivacyPolicyViewController: UIViewController {
         // URL de la política de privacidad
         if let url = URL(string: "https://bozanilda.github.io/privacy-policy/") {
             let request = URLRequest(url: url)
-            webView.load(request)
+            webView2.load(request)
         }
     }
 }

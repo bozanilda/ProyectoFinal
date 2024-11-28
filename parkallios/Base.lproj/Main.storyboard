@@ -273,7 +273,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k7c-MZ-X6e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6510.6870229007627" y="282.3943661971831"/>
+            <point key="canvasLocation" x="7437.4045801526718" y="282.3943661971831"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="MJo-vK-wpq">
@@ -611,17 +611,14 @@
         <scene sceneID="dkF-M0-64Q">
             <objects>
                 <viewController storyboardIdentifier="PrivacyPolicyViewController" id="Pej-N2-2za" customClass="PrivacyPolicyViewController" customModule="parkallios" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="0Jl-JF-i1i">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <view key="view" contentMode="scaleToFill" id="0Jl-JF-i1i">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cof-HQ-6sD">
-                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cof-HQ-6sD">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="759"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="759" id="E8d-Wc-nZj"/>
-                                    <constraint firstAttribute="width" constant="393" id="Qeh-oZ-0hH"/>
-                                </constraints>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                     <wkPreferences key="preferences"/>
@@ -630,16 +627,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yoa-6j-1FH"/>
                         <color key="backgroundColor" red="0.92941176889999999" green="0.90196079019999997" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="cof-HQ-6sD" secondAttribute="bottom" id="Lze-hY-RLo"/>
-                            <constraint firstItem="yoa-6j-1FH" firstAttribute="bottom" secondItem="cof-HQ-6sD" secondAttribute="bottom" id="f9F-Op-UCr"/>
-                            <constraint firstItem="cof-HQ-6sD" firstAttribute="centerX" secondItem="0Jl-JF-i1i" secondAttribute="centerX" id="hJn-zm-YzU"/>
-                            <constraint firstItem="cof-HQ-6sD" firstAttribute="top" secondItem="yoa-6j-1FH" secondAttribute="top" id="iq6-Pd-ale"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LbW-s4-1dm"/>
                     <connections>
-                        <outlet property="webView" destination="cof-HQ-6sD" id="uf0-fW-olE"/>
+                        <outlet property="webView2" destination="cof-HQ-6sD" id="0yG-bD-JUa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jF8-x6-T7M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -654,12 +645,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NhP-hf-PBN">
-                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NhP-hf-PBN">
+                                <rect key="frame" x="0.0" y="103" width="393" height="619"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="393" id="pD4-4T-iTV"/>
-                                </constraints>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                     <wkPreferences key="preferences"/>
@@ -690,21 +679,15 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="v4G-td-fCB"/>
                         <color key="backgroundColor" red="0.92941176889999999" green="0.90196079019999997" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="v4G-td-fCB" firstAttribute="trailing" secondItem="NhP-hf-PBN" secondAttribute="trailing" id="7Tl-oH-o2K"/>
-                            <constraint firstItem="NhP-hf-PBN" firstAttribute="top" secondItem="v4G-td-fCB" secondAttribute="top" id="L9C-UA-wqO"/>
-                            <constraint firstItem="v4G-td-fCB" firstAttribute="bottom" secondItem="NhP-hf-PBN" secondAttribute="bottom" id="a7t-bW-3YY"/>
-                            <constraint firstItem="NhP-hf-PBN" firstAttribute="leading" secondItem="v4G-td-fCB" secondAttribute="leading" id="gUs-hT-dSB"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Yn6-9U-zOj"/>
                     <connections>
-                        <outlet property="webView" destination="NhP-hf-PBN" id="a2Y-If-aav"/>
+                        <outlet property="webView1" destination="NhP-hf-PBN" id="8XL-gY-AqW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4ht-De-obR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1703" y="644"/>
+            <point key="canvasLocation" x="1701.5267175572519" y="643.66197183098598"/>
         </scene>
         <!--Location View Controller-->
         <scene sceneID="0Yr-CA-C1h">
@@ -714,8 +697,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¿Por qué ParkAll solicita tu ubicación?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P4q-OR-DAA">
+                                <rect key="frame" x="43" y="88" width="309" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YYk-wj-4Vd">
+                                <rect key="frame" x="0.0" y="128" width="393" height="553"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <standardMapConfiguration key="preferredConfiguration"/>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ubica cocheras cercanas a ti" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8k-vw-Yen">
+                                <rect key="frame" x="83" y="697" width="228" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Cy-ib-t3n">
-                                <rect key="frame" x="35" y="783" width="324" height="35"/>
+                                <rect key="frame" x="34" y="726" width="324" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.69180895620000005" green="0.48476448020000001" blue="0.67101699140000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -734,25 +736,6 @@
                                     <segue destination="sDW-wB-UHq" kind="show" id="hEr-Yz-JDV"/>
                                 </connections>
                             </button>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YYk-wj-4Vd">
-                                <rect key="frame" x="0.0" y="128" width="393" height="553"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <standardMapConfiguration key="preferredConfiguration"/>
-                            </mapView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ubica cocheras cercanas a ti" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8k-vw-Yen">
-                                <rect key="frame" x="83" y="697" width="228" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¿Por qué ParkAll solicita tu ubicación?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P4q-OR-DAA">
-                                <rect key="frame" x="43" y="88" width="309" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ngc-dO-elN"/>
                         <color key="backgroundColor" red="0.92941176889999999" green="0.90196079019999997" blue="0.97254902119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -766,10 +749,10 @@
             </objects>
             <point key="canvasLocation" x="2672.5190839694656" y="-104.22535211267606"/>
         </scene>
-        <!--View Controller-->
+        <!--Welcome View Controller-->
         <scene sceneID="sAA-4e-i9l">
             <objects>
-                <viewController id="P3k-qy-Evf" sceneMemberID="viewController">
+                <viewController id="P3k-qy-Evf" customClass="WelcomeViewController" customModule="parkallios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Anl-T7-1LU">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -816,26 +799,26 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Encontrar cocher fácil">
+                                        <fragment content="Encontrar cocher">
                                             <attributes>
                                                 <font key="NSFont" size="14" name="Helvetica-Bold"/>
                                                 <font key="NSOriginalFont" size="12" name="Helvetica"/>
                                             </attributes>
                                         </fragment>
-                                    </attributedString>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qoh-Oc-OEC">
-                                <rect key="frame" x="28" y="542" width="341" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.69180895620000005" green="0.26924220599999998" blue="0.57733211809999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Ambos">
+                                        <fragment content="a">
                                             <attributes>
-                                                <font key="NSFont" size="16" name="Helvetica-Bold"/>
+                                                <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                                <font key="NSOriginalFont" size="14" name="Helvetica-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content=" ">
+                                            <attributes>
+                                                <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="fácil">
+                                            <attributes>
+                                                <font key="NSFont" size="14" name="Helvetica-Bold"/>
                                                 <font key="NSOriginalFont" size="12" name="Helvetica"/>
                                             </attributes>
                                         </fragment>
@@ -847,10 +830,11 @@
                         <viewLayoutGuide key="safeArea" id="dRS-if-rEe"/>
                         <color key="backgroundColor" red="0.92941176889999999" green="0.90196079019999997" blue="0.97254902119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="gGT-sM-eCG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VqK-4D-ebx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2772" y="1339"/>
+            <point key="canvasLocation" x="3341.2213740458014" y="643.66197183098598"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="p5F-rP-EB7">
@@ -905,7 +889,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¡Estate atento a las solicitudses y aceptalas para empezar a ganar!" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQF-Oh-eyZ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¡Estate atento a las solicitudes y aceptalas para empezar a ganar!" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQF-Oh-eyZ">
                                 <rect key="frame" x="16" y="665" width="374" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="11"/>
@@ -942,7 +926,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L5G-nc-IH3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2772" y="674"/>
+            <point key="canvasLocation" x="4110.6870229007636" y="643.66197183098598"/>
         </scene>
         <!--Item-->
         <scene sceneID="HYA-RW-J8Y">
@@ -958,7 +942,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rcu-yh-MQj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3881" y="728"/>
+            <point key="canvasLocation" x="5763" y="702"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dkh-lz-2Di">
@@ -997,10 +981,28 @@
             </objects>
             <point key="canvasLocation" x="1966" y="-104"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="v2s-ek-IY0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GqK-b1-Lxn" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RcS-VA-bX4">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="P3k-qy-Evf" kind="relationship" relationship="rootViewController" id="cEG-P2-NzR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gwr-bR-TYs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2414.5038167938928" y="643.66197183098598"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="TSu-Sx-heA"/>
-        <segue reference="U0r-bk-Hhh"/>
+        <segue reference="SJe-Qn-lae"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="carro" width="70" height="70"/>
