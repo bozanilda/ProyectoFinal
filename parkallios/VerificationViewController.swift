@@ -25,7 +25,16 @@ class VerificationViewController: UIViewController, UITableViewDelegate, UITable
         "Carta de antecedentes no penales",
         "Código de referencia"
     ]
-
+    // Identificadores de segues
+        let segueIdentifiers = [
+            "showInformacionBasica",
+            "showLicenciaConducir",
+            "showConfirmacionID",
+            "showInformacionVehiculo",
+            "showSOAT",
+            "showAntecedentes",
+            "showCodigoReferencia"
+        ]
     // Indica si cada opción está completada
     var completionStatus = [false, false, false, false, false, false, false]
 
@@ -60,31 +69,34 @@ class VerificationViewController: UIViewController, UITableViewDelegate, UITable
         cell.textLabel?.font = UIFont.systemFont(ofSize: 16)
         cell.textLabel?.textColor = .darkGray
 
-        // Configurar el accesorio con flecha
-        if completionStatus[indexPath.row] {
-            // Si está completado, mostrar un check con flecha
-            let accessoryImage = UIImageView(image: UIImage(systemName: "checkmark.circle.fill"))
-            accessoryImage.tintColor = .systemGreen
-            cell.accessoryView = accessoryImage
-        } else {
-            // Si no está completado, solo flecha
-            let accessoryImage = UIImageView(image: UIImage(systemName: "chevron.right"))
-            accessoryImage.tintColor = .lightGray
-            cell.accessoryView = accessoryImage
+        // Configurar el accesorio con flecha o check
+                if completionStatus[indexPath.row] {
+                    let accessoryImage = UIImageView(image: UIImage(systemName: "checkmark.circle.fill"))
+                    accessoryImage.tintColor = .systemGreen
+                    cell.accessoryView = accessoryImage
+                } else {
+                    let accessoryImage = UIImageView(image: UIImage(systemName: "chevron.right"))
+                    accessoryImage.tintColor = .lightGray
+                    cell.accessoryView = accessoryImage
+                }
+                
+                return cell
+            }
+
+    //MARK: - UITableViewDelegate
+
+        func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+            tableView.deselectRow(at: indexPath, animated: true)
+
+            // Redirigir a la vista específica según la opción seleccionada
+            let segueIdentifier = segueIdentifiers[indexPath.row]
+            performSegue(withIdentifier: segueIdentifier, sender: nil)
+
+            // Marcar la opción como completada
+            completionStatus[indexPath.row] = true
+            tableView.reloadRows(at: [indexPath], with: .automatic)
+            updateAcceptButtonState()
         }
-        
-        return cell
-    }
-    // MARK: - UITableViewDelegate
-
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
-
-        // Simular completar la opción seleccionada
-        completionStatus[indexPath.row] = true
-        tableView.reloadRows(at: [indexPath], with: .automatic)
-        updateAcceptButtonState()
-    }
 
     // MARK: - Actions
 
@@ -115,4 +127,5 @@ class VerificationViewController: UIViewController, UITableViewDelegate, UITable
         acceptButton.isEnabled = !completionStatus.contains(false)
         acceptButton.backgroundColor = acceptButton.isEnabled ? UIColor.systemGreen : UIColor.lightGray
     }
+    
 }
