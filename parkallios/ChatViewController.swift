@@ -15,6 +15,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     @IBOutlet weak var textField: UITextField! // Campo de texto para escribir mensajes
     @IBOutlet weak var sendButton: UIButton! // Botón para enviar mensajes
     @IBOutlet weak var micButton: UIButton! // Botón para grabar audio
+    @IBOutlet weak var containerView: UIView! // Contenedor del input (nueva adición)
     
     // MARK: - Variables
     var mensajes: [Mensaje] = [] // Array de mensajes (estructura definida más abajo)
@@ -26,8 +27,8 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         super.viewDidLoad()
         
         // Configurar la tabla
-        tableView.delegate = self
-        tableView.dataSource = self
+        
+        
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "celda")
         
         // Configurar el campo de texto
@@ -35,6 +36,29 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         // Configurar el botón de grabación
         prepararGrabacion()
+        
+        // Configurar notificaciones de teclado
+        configurarNotificacionesTeclado()
+    }
+    
+    // MARK: - Notificaciones del Teclado
+    func configurarNotificacionesTeclado() {
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
+    }
+    
+    @objc func keyboardWillShow(notification: NSNotification) {
+        if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
+            UIView.animate(withDuration: 0.3) {
+                self.containerView.transform = CGAffineTransform(translationX: 0, y: -keyboardSize.height)
+            }
+        }
+    }
+
+    @objc func keyboardWillHide(notification: NSNotification) {
+        UIView.animate(withDuration: 0.3) {
+            self.containerView.transform = .identity
+        }
     }
     
     // MARK: - Funciones para la Tabla

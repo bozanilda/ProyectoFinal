@@ -16,6 +16,7 @@
 		E8B53E962CF586B200B1C2FB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E8B53E952CF586B200B1C2FB /* FirebaseFirestore */; };
 		E8B53E982CF586B200B1C2FB /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = E8B53E972CF586B200B1C2FB /* FirebaseMessaging */; };
 		E8B53E9A2CF586B200B1C2FB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E8B53E992CF586B200B1C2FB /* FirebaseStorage */; };
+		E8D5347C2CFD731E00E7F9B9 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = E8D5347B2CFD731E00E7F9B9 /* FirebaseDatabase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D5347C2CFD731E00E7F9B9 /* FirebaseDatabase in Frameworks */,
 				E8B53E982CF586B200B1C2FB /* FirebaseMessaging in Frameworks */,
 				E8B53E8A2CF586B200B1C2FB /* FirebaseAnalytics in Frameworks */,
 				E8B53E9A2CF586B200B1C2FB /* FirebaseStorage in Frameworks */,
@@ -155,6 +157,7 @@
 				E8B53E952CF586B200B1C2FB /* FirebaseFirestore */,
 				E8B53E972CF586B200B1C2FB /* FirebaseMessaging */,
 				E8B53E992CF586B200B1C2FB /* FirebaseStorage */,
+				E8D5347B2CFD731E00E7F9B9 /* FirebaseDatabase */,
 			);
 			productName = parkallios;
 			productReference = E8E6FCDC2CE460B1006EE07E /* parkallios.app */;
@@ -653,6 +656,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E8B53E882CF586B200B1C2FB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		E8D5347B2CFD731E00E7F9B9 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8B53E882CF586B200B1C2FB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

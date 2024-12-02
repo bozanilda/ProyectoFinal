@@ -1089,7 +1089,7 @@
                             </datePicker>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1CG-kx-WbH"/>
-                        <color key="backgroundColor" red="0.95287473119999999" green="0.91995928289999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.96729775110000005" green="0.84521461659999997" blue="0.97040086260000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="fv2-3Z-r5X"/>
                 </viewController>
@@ -1143,7 +1143,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TYi-kY-beg"/>
-                        <color key="backgroundColor" red="0.95287473119999999" green="0.91995928289999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.96729775110000005" green="0.84521461659999997" blue="0.97040086260000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="Bk9-Iw-zyg"/>
                 </viewController>
@@ -1229,7 +1229,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CqL-L8-kbM"/>
-                        <color key="backgroundColor" red="0.95287473119999999" green="0.91995928289999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.96729775110000005" green="0.84521461659999997" blue="0.97040086260000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="ys1-AJ-e4O"/>
                 </viewController>
@@ -1278,7 +1278,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TtH-o5-HLY"/>
-                        <color key="backgroundColor" red="0.95287473119999999" green="0.91995928289999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.96729775110000005" green="0.84521461659999997" blue="0.97040086260000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="Jgd-qr-hUU"/>
                 </viewController>
@@ -1327,7 +1327,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="joi-xk-fzy"/>
-                        <color key="backgroundColor" red="0.95287473119999999" green="0.91995928289999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.96729775110000005" green="0.84521461659999997" blue="0.97040086260000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="Hwl-7F-t6g"/>
                 </viewController>
@@ -1401,7 +1401,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CwM-zi-WwW"/>
-                        <color key="backgroundColor" red="0.95287473119999999" green="0.91995928289999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.96729775110000005" green="0.84521461659999997" blue="0.97040086260000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="Fdw-NW-YPu"/>
                 </viewController>
@@ -1450,7 +1450,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mgg-3y-mSb"/>
-                        <color key="backgroundColor" red="0.95287473119999999" green="0.91995928289999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.96729775110000005" green="0.84521461659999997" blue="0.97040086260000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="vcc-ni-64P"/>
                 </viewController>
@@ -1565,6 +1565,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Alquilar">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="fzI-KN-K08" kind="show" id="qbz-eL-IaA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cNH-wa-hTb">
                                 <rect key="frame" x="194" y="34" width="137" height="23"/>
@@ -1580,6 +1583,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <color key="textColor" red="0.17012503590264008" green="0.41926838672230571" blue="0.42520912247474751" alpha="0.95567602039999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjU-yz-LJz">
+                                <rect key="frame" x="166" y="5" width="8" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1611,6 +1621,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Alquilar">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="DVc-ow-BIu" kind="show" id="CCv-6F-0YS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kk6-8j-0xs">
                                 <rect key="frame" x="194" y="33" width="137" height="23"/>
@@ -1628,6 +1641,13 @@
                                 <color key="textColor" red="0.1701250359" green="0.4192683867" blue="0.42520912249999998" alpha="0.95567602039999999" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4G6-uH-aD6">
+                                <rect key="frame" x="166" y="4" width="10" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9yT-ek-41V"/>
                         <color key="backgroundColor" red="0.96729775110000005" green="0.84521461659999997" blue="0.97040086260000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1635,7 +1655,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cd9-k8-ACp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9088" y="-213"/>
+            <point key="canvasLocation" x="9087.7862595419847" y="-213.38028169014086"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dqV-r2-Itf">
@@ -1657,6 +1677,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Alquilar">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="DN5-Rf-UE4" kind="show" id="MXH-LV-CjD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWl-to-nWA">
                                 <rect key="frame" x="194" y="32" width="137" height="23"/>
@@ -1674,6 +1697,13 @@
                                 <color key="textColor" red="0.1701250359" green="0.4192683867" blue="0.42520912249999998" alpha="0.95567602039999999" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ule-74-bYc">
+                                <rect key="frame" x="162" y="6" width="11" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8a1-ms-GNN"/>
                         <color key="backgroundColor" red="0.96729775110000005" green="0.84521461659999997" blue="0.97040086260000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1681,14 +1711,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xP8-fB-Ecu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9088" y="-77"/>
+            <point key="canvasLocation" x="9087.7862595419847" y="-77.464788732394368"/>
         </scene>
-        <!--View Controller-->
+        <!--Rent Parking1 View Controller-->
         <scene sceneID="K49-ek-6BZ">
             <objects>
-                <viewController id="fzI-KN-K08" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RentParking1ViewController" id="fzI-KN-K08" customClass="RentParking1ViewController" customModule="parkallios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ptd-BZ-mC5">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="361" height="92"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ALQUILAR ESTA COCHERA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRb-J8-SNR">
@@ -1717,9 +1747,12 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Eliminar">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="deleteButtonTapped:" destination="fzI-KN-K08" eventType="touchUpInside" id="Mds-J7-Sdk"/>
+                                </connections>
                             </button>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D0W-2T-I1a">
-                                <rect key="frame" x="7" y="396" width="393" height="121"/>
+                                <rect key="frame" x="7" y="396" width="361" height="121"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZD-Hd-B1A">
@@ -1730,23 +1763,32 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Pagar">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="payButtonTapped:" destination="fzI-KN-K08" eventType="touchUpInside" id="A0t-Ac-etO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tBr-rC-np1"/>
                         <color key="backgroundColor" red="0.92941176889999999" green="0.90196079019999997" blue="0.97254902119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="4Un-Ct-uct"/>
+                    <connections>
+                        <outlet property="deleteButton" destination="XKF-Qc-Zmd" id="hbp-Gn-7Za"/>
+                        <outlet property="payButton" destination="jZD-Hd-B1A" id="Wad-we-hn0"/>
+                        <outlet property="pickerView" destination="D0W-2T-I1a" id="ycA-dH-QIN"/>
+                        <outlet property="priceLabel" destination="KUR-NL-kSE" id="BPi-ui-4hb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dCL-aa-Dj6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9846.5648854961837" y="-59.154929577464792"/>
+            <point key="canvasLocation" x="9778" y="-349"/>
         </scene>
-        <!--View Controller-->
+        <!--Rent Parking2 View Controller-->
         <scene sceneID="j1k-Ni-DEE">
             <objects>
-                <viewController id="DVc-ow-BIu" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RentParking2ViewController" id="DVc-ow-BIu" customClass="RentParking2ViewController" customModule="parkallios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Edu-sL-LOg">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="361" height="92"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ALQUILAR ESTA COCHERA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPI-zx-zE5">
@@ -1768,7 +1810,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YKN-Hz-OOH">
-                                <rect key="frame" x="0.0" y="398" width="393" height="121"/>
+                                <rect key="frame" x="0.0" y="398" width="361" height="121"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ctt-eX-9D5">
@@ -1779,6 +1821,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Eliminar">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="deleteButtonTapped:" destination="DVc-ow-BIu" eventType="touchUpInside" id="Qbi-gT-CVQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s1x-1L-agu">
                                 <rect key="frame" x="16" y="539" width="361" height="35"/>
@@ -1788,22 +1833,32 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Pagar">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="payButtonTapped:" destination="DVc-ow-BIu" eventType="touchUpInside" id="kzp-6h-a1K"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gy5-Fn-aSn"/>
                         <color key="backgroundColor" red="0.92941176889999999" green="0.90196079019999997" blue="0.97254902119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="iOk-mr-lUj"/>
+                    <connections>
+                        <outlet property="deleteButton" destination="Ctt-eX-9D5" id="ft9-Pu-kcJ"/>
+                        <outlet property="payButton" destination="s1x-1L-agu" id="T1Q-ru-ySF"/>
+                        <outlet property="pickerView" destination="YKN-Hz-OOH" id="Xph-Hg-5OZ"/>
+                        <outlet property="priceLabel" destination="UzG-JP-atO" id="lOp-4m-uoh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E8p-iK-U79" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10541" y="-59"/>
+            <point key="canvasLocation" x="9778" y="-213"/>
         </scene>
-        <!--View Controller-->
+        <!--Rent Parking3 View Controller-->
         <scene sceneID="BTi-H9-dm5">
             <objects>
-                <viewController id="DN5-Rf-UE4" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RentParking3ViewController" id="DN5-Rf-UE4" customClass="RentParking3ViewController" customModule="parkallios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cKZ-yN-BNT">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="361" height="92"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ALQUILAR ESTA COCHERA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGr-uX-LHp">
@@ -1825,7 +1880,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KIi-7f-ixm">
-                                <rect key="frame" x="0.0" y="398" width="393" height="121"/>
+                                <rect key="frame" x="0.0" y="398" width="361" height="121"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pci-Q8-QbG">
@@ -1836,6 +1891,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Eliminar">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="deleteButtonTapped:" destination="DN5-Rf-UE4" eventType="touchUpInside" id="dSD-OX-ICo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uiZ-XB-CI6">
                                 <rect key="frame" x="16" y="539" width="361" height="35"/>
@@ -1845,22 +1903,32 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Pagar">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="payButtonTapped:" destination="DN5-Rf-UE4" eventType="touchUpInside" id="3vj-uE-VqX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FQM-QP-39h"/>
                         <color key="backgroundColor" red="0.92941176889999999" green="0.90196079019999997" blue="0.97254902119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="pwm-38-vb4"/>
+                    <connections>
+                        <outlet property="deleteButton" destination="Pci-Q8-QbG" id="TaK-H8-YIY"/>
+                        <outlet property="payButton" destination="uiZ-XB-CI6" id="gE2-3b-ygw"/>
+                        <outlet property="pickerView" destination="KIi-7f-ixm" id="uTY-cj-ELC"/>
+                        <outlet property="priceLabel" destination="nk3-Ut-u5t" id="lrO-W6-ypi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iLg-TW-gM3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11224" y="-59"/>
+            <point key="canvasLocation" x="9778" y="-77"/>
         </scene>
-        <!--View Controller-->
+        <!--Rent Parking4 View Controller-->
         <scene sceneID="EnJ-ZE-wb8">
             <objects>
-                <viewController id="dFK-zR-1go" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RentParking4ViewController" id="dFK-zR-1go" customClass="RentParking4ViewController" customModule="parkallios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xzI-oE-jtH">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="360" height="92"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ALQUILAR ESTA COCHERA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oeL-vq-FGV">
@@ -1882,7 +1950,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4uu-dp-fBB">
-                                <rect key="frame" x="0.0" y="395" width="393" height="121"/>
+                                <rect key="frame" x="0.0" y="395" width="360" height="121"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rR8-mV-pSG">
@@ -1893,6 +1961,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Eliminar">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="deleteButtonTapped:" destination="dFK-zR-1go" eventType="touchUpInside" id="3K8-ui-Poc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSD-kn-P02">
                                 <rect key="frame" x="16" y="536" width="361" height="35"/>
@@ -1902,15 +1973,25 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Pagar">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="payButtonTapped:" destination="dFK-zR-1go" eventType="touchUpInside" id="coQ-am-vfR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9Fv-Nb-CqF"/>
                         <color key="backgroundColor" red="0.92941176889999999" green="0.90196079019999997" blue="0.97254902119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="oPw-m8-Id2"/>
+                    <connections>
+                        <outlet property="deleteButton" destination="rR8-mV-pSG" id="VAn-ku-Dcv"/>
+                        <outlet property="payButton" destination="zSD-kn-P02" id="qq3-Hv-N2N"/>
+                        <outlet property="pickerView" destination="4uu-dp-fBB" id="3LE-MQ-P37"/>
+                        <outlet property="priceLabel" destination="0e1-Hm-Hvc" id="5DB-0K-ZLT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VUk-3x-LLc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11905" y="-59"/>
+            <point key="canvasLocation" x="9779" y="65"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="CaM-NG-i0e">
@@ -1932,6 +2013,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Alquilar">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Uhe-tQ-aLE" kind="show" id="i0W-UQ-q7x"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUE-Vs-1Ao">
                                 <rect key="frame" x="189" y="33" width="137" height="23"/>
@@ -1949,6 +2033,13 @@
                                 <color key="textColor" red="0.1701250359" green="0.4192683867" blue="0.42520912249999998" alpha="0.95567602039999999" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFp-69-Y68">
+                                <rect key="frame" x="163" y="11" width="11" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CHW-4K-tag"/>
                         <color key="backgroundColor" red="0.96729775110000005" green="0.84521461659999997" blue="0.97040086260000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1956,7 +2047,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="awn-fV-qQA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9089" y="215"/>
+            <point key="canvasLocation" x="9088.5496183206105" y="214.78873239436621"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qcg-FX-aql">
@@ -1978,6 +2069,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Alquilar">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="dFK-zR-1go" kind="show" id="0Ks-fm-blH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6h-c7-LcL">
                                 <rect key="frame" x="189" y="34" width="137" height="23"/>
@@ -1995,6 +2089,13 @@
                                 <color key="textColor" red="0.1701250359" green="0.4192683867" blue="0.42520912249999998" alpha="0.95567602039999999" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="doJ-OL-Ch1">
+                                <rect key="frame" x="166" y="1" width="11" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="alD-Vd-Gcf"/>
                         <color key="backgroundColor" red="0.96729775110000005" green="0.84521461659999997" blue="0.97040086260000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -2002,7 +2103,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bnY-U1-un8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9087" y="65"/>
+            <point key="canvasLocation" x="9085.4961832061072" y="64.788732394366207"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XyM-47-5NY">
@@ -2024,6 +2125,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Alquilar">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Iw5-bx-7Rp" kind="show" id="rxz-1U-uej"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JR5-mS-Vgj">
                                 <rect key="frame" x="195" y="35" width="137" height="23"/>
@@ -2041,6 +2145,13 @@
                                 <color key="textColor" red="0.1701250359" green="0.4192683867" blue="0.42520912249999998" alpha="0.95567602039999999" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wD-FW-aOg">
+                                <rect key="frame" x="166" y="6" width="11" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bOh-Vs-ogI"/>
                         <color key="backgroundColor" red="0.96729775110000005" green="0.84521461659999997" blue="0.97040086260000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -2048,14 +2159,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vta-UW-9tW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8263" y="513"/>
+            <point key="canvasLocation" x="8261.8320610687024" y="512.67605633802816"/>
         </scene>
-        <!--View Controller-->
+        <!--Rent Parking5 View Controller-->
         <scene sceneID="ccY-Io-Z8u">
             <objects>
-                <viewController id="Uhe-tQ-aLE" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RentParking5ViewController" id="Uhe-tQ-aLE" customClass="RentParking5ViewController" customModule="parkallios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FWU-L1-Iz1">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="360" height="92"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ALQUILAR ESTA COCHERA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ec-My-mof">
@@ -2077,7 +2188,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="noX-33-pIs">
-                                <rect key="frame" x="0.0" y="389" width="393" height="121"/>
+                                <rect key="frame" x="0.0" y="389" width="360" height="121"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sdC-If-FhW">
@@ -2088,6 +2199,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Eliminar">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="deleteButtonTapped:" destination="Uhe-tQ-aLE" eventType="touchUpInside" id="fEp-eE-d3k"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eac-Pi-lXh">
                                 <rect key="frame" x="16" y="530" width="361" height="35"/>
@@ -2097,22 +2211,32 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Pagar">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="payButtonTapped:" destination="Uhe-tQ-aLE" eventType="touchUpInside" id="IFj-81-GNR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nRn-bt-vC7"/>
                         <color key="backgroundColor" red="0.92941176889999999" green="0.90196079019999997" blue="0.97254902119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Hk7-VM-QhO"/>
+                    <connections>
+                        <outlet property="deleteButton" destination="sdC-If-FhW" id="qxf-D1-2OB"/>
+                        <outlet property="payButton" destination="eac-Pi-lXh" id="f8v-88-mD4"/>
+                        <outlet property="pickerView" destination="noX-33-pIs" id="oNx-aY-Pha"/>
+                        <outlet property="priceLabel" destination="tUJ-h1-DDZ" id="YOD-Ue-eU7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NZ2-9j-vlQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10756.48854961832" y="607.74647887323943"/>
+            <point key="canvasLocation" x="9777" y="215"/>
         </scene>
-        <!--View Controller-->
+        <!--Rent Parking6 View Controller-->
         <scene sceneID="qmF-tn-eL8">
             <objects>
-                <viewController id="lep-wB-Fqr" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RentParking6ViewController" id="lep-wB-Fqr" customClass="RentParking6ViewController" customModule="parkallios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fCg-7S-RUc">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="360" height="92"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ALQUILAR ESTA COCHERA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbX-YI-Gc6">
@@ -2134,7 +2258,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wid-Sc-KzY">
-                                <rect key="frame" x="0.0" y="386" width="393" height="121"/>
+                                <rect key="frame" x="0.0" y="386" width="360" height="121"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kEb-r8-Zgk">
@@ -2145,6 +2269,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Eliminar">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="deleteButtonTapped:" destination="lep-wB-Fqr" eventType="touchUpInside" id="95e-l3-jCt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbN-Qh-MG3">
                                 <rect key="frame" x="16" y="527" width="361" height="35"/>
@@ -2154,22 +2281,32 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Pagar">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="payButtonTapped:" destination="lep-wB-Fqr" eventType="touchUpInside" id="llL-rF-aup"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XYU-4z-qhV"/>
                         <color key="backgroundColor" red="0.92941176889999999" green="0.90196079019999997" blue="0.97254902119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="qVi-gB-meX"/>
+                    <connections>
+                        <outlet property="deleteButton" destination="kEb-r8-Zgk" id="pls-Al-BjM"/>
+                        <outlet property="payButton" destination="tbN-Qh-MG3" id="FVO-sz-r1c"/>
+                        <outlet property="pickerView" destination="wid-Sc-KzY" id="N4L-LE-Vs2"/>
+                        <outlet property="priceLabel" destination="g33-5P-dux" id="PRQ-HC-i2u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Fn-nf-1Fj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11438.931297709923" y="608.45070422535218"/>
+            <point key="canvasLocation" x="9779" y="406"/>
         </scene>
-        <!--View Controller-->
+        <!--Rent Parking7 View Controller-->
         <scene sceneID="NP0-cj-zfn">
             <objects>
-                <viewController id="Iw5-bx-7Rp" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RentParking7ViewController" id="Iw5-bx-7Rp" customClass="RentParking7ViewController" customModule="parkallios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RH7-Oa-Apd">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="359" height="92"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ALQUILAR ESTA COCHERA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wlc-pY-fyL">
@@ -2191,35 +2328,89 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rY2-HK-pne">
-                                <rect key="frame" x="0.0" y="389" width="393" height="121"/>
+                                <rect key="frame" x="0.0" y="389" width="359" height="121"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahT-Pr-2S7">
-                                <rect key="frame" x="16" y="573" width="361" height="35"/>
+                                <rect key="frame" x="16" y="610" width="361" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.69180895620000005" green="0.48476448020000001" blue="0.67101699140000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Eliminar">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="deleteButtonTapped:" destination="Iw5-bx-7Rp" eventType="touchUpInside" id="FiW-5b-Udk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2g-UW-7pB">
-                                <rect key="frame" x="16" y="530" width="361" height="35"/>
+                                <rect key="frame" x="16" y="567" width="361" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.69180895620000005" green="0.48476448020000001" blue="0.67101699140000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Pagar">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="payButtonTapped:" destination="Iw5-bx-7Rp" eventType="touchUpInside" id="UHk-1d-a3F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2K-ip-0Nc">
+                                <rect key="frame" x="137" y="653" width="120" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Mas detalles"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6oX-BJ-5Gs">
+                                <rect key="frame" x="154" y="524" width="85" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Agregar"/>
+                                <connections>
+                                    <action selector="agregarButtonTapped:" destination="Iw5-bx-7Rp" eventType="touchUpInside" id="du1-06-tMq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tz2-9q-HF5"/>
                         <color key="backgroundColor" red="0.92941176889999999" green="0.90196079019999997" blue="0.97254902119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="G25-fo-hpc"/>
+                    <connections>
+                        <outlet property="deleteButton" destination="ahT-Pr-2S7" id="1hk-tn-Q7F"/>
+                        <outlet property="payButton" destination="f2g-UW-7pB" id="5Li-eK-Zz4"/>
+                        <outlet property="pickerView" destination="rY2-HK-pne" id="dYz-8C-mAs"/>
+                        <outlet property="priceLabel" destination="7TT-VW-dTb" id="RGD-X2-krK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xhr-EU-PTT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12098.473282442748" y="607.74647887323943"/>
+            <point key="canvasLocation" x="8263" y="932"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XVY-6i-heQ">
+            <objects>
+                <viewController id="0TO-gu-Imd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dkq-QG-ZPl">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xeO-nq-G7p">
+                                <rect key="frame" x="16" y="96" width="361" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <segments>
+                                    <segment title="Pagos"/>
+                                    <segment title="Alquileres "/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SWk-df-B77"/>
+                        <color key="backgroundColor" red="0.96729775110000005" green="0.84521461659999997" blue="0.97040086260000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gKX-an-6Ux" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9057.2519083969455" y="956.33802816901414"/>
         </scene>
         <!--Chat View Controller-->
         <scene sceneID="LIa-VV-Trz">
@@ -2257,12 +2448,13 @@
                     </view>
                     <navigationItem key="navigationItem" customizationIdentifier="" id="r1X-8v-sCW"/>
                     <connections>
+                        <outlet property="containerView" destination="oKx-Sg-tQK" id="boU-Af-She"/>
                         <outlet property="tableView" destination="xeF-g5-ixx" id="FoU-Oe-b4X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3RY-qp-3fF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9626.7175572519081" y="843.66197183098598"/>
+            <point key="canvasLocation" x="7262" y="1342"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2jX-l3-ahj">
@@ -2284,6 +2476,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Alquilar">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="lep-wB-Fqr" kind="show" id="v41-Jr-92R"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mut-bE-Lyu">
                                 <rect key="frame" x="189" y="34" width="137" height="23"/>
@@ -2301,6 +2496,13 @@
                                 <color key="textColor" red="0.1701250359" green="0.4192683867" blue="0.42520912249999998" alpha="0.95567602039999999" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zdv-3s-BJP">
+                                <rect key="frame" x="165" y="7" width="10" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fRR-XM-Qho"/>
                         <color key="backgroundColor" red="0.96729775110000005" green="0.84521461659999997" blue="0.97040086260000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -2308,25 +2510,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JVf-N6-agK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8924" y="406"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="H5H-YQ-Yf0">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tpP-BA-ciK" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uZN-0A-UAz">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="xjx-Jb-8bZ" kind="relationship" relationship="rootViewController" id="qKD-yJ-yyA"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tPe-nD-6mp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="8922.9007633587789" y="843.66197183098598"/>
+            <point key="canvasLocation" x="8923.6641221374048" y="405.63380281690144"/>
         </scene>
         <!--Chat View Controller-->
         <scene sceneID="cc0-yk-XLA">
@@ -2365,6 +2549,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="REE-Gq-KEJ"/>
                         <color key="backgroundColor" red="0.96729775110000005" green="0.84521461659999997" blue="0.97040086260000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
@@ -2375,7 +2560,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8d3-AR-Bf5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9628" y="1271"/>
+            <point key="canvasLocation" x="8263" y="1548"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -2400,6 +2585,9 @@
         <image name="usuarios" width="70" height="70"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
