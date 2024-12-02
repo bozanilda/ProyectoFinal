@@ -97,28 +97,36 @@ class VerificationViewController: UIViewController, UITableViewDelegate, UITable
             tableView.reloadRows(at: [indexPath], with: .automatic)
             updateAcceptButtonState()
         }
-
+    @IBAction func continueButtonTapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "showNextView", sender: nil)
+    }
     // MARK: - Actions
 
     @IBAction func acceptButtonTapped(_ sender: UIButton) {
         if completionStatus.contains(false) {
-            let alert = UIAlertController(
-                title: "Proceso Incompleto",
-                message: "Debes completar todas las opciones antes de continuar.",
-                preferredStyle: .alert
-            )
-            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-            present(alert, animated: true, completion: nil)
-        } else {
-            let alert = UIAlertController(
-                title: "Confirmación",
-                message: "Has completado el proceso de verificación.",
-                preferredStyle: .alert
-            )
-            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-            present(alert, animated: true, completion: nil)
+                let alert = UIAlertController(
+                    title: "Proceso Incompleto",
+                    message: "Debes completar todas las opciones antes de continuar.",
+                    preferredStyle: .alert
+                )
+                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                present(alert, animated: true, completion: nil)
+            } else {
+                let alert = UIAlertController(
+                    title: "Confirmación",
+                    message: "Has completado el proceso de verificación.",
+                    preferredStyle: .alert
+                )
+                
+                // Agregar acción para navegar a otra vista después de la confirmación
+                alert.addAction(UIAlertAction(title: "Continuar", style: .default, handler: { _ in
+                    // Realizar navegación a la nueva vista
+                    self.performSegue(withIdentifier: "showNextView", sender: nil)
+                }))
+                
+                present(alert, animated: true, completion: nil)
+            }
         }
-    }
 
     // MARK: - Helpers
 

@@ -13,7 +13,8 @@ class LocationViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet weak var mapView: MKMapView!
     let locationManager = CLLocationManager()
-        
+    // Coordenada simulada para Arequipa, Perú
+    let simulatedLocation = CLLocationCoordinate2D(latitude: -16.409047, longitude: -71.537451)
         override func viewDidLoad() {
             super.viewDidLoad()
             
@@ -21,7 +22,8 @@ class LocationViewController: UIViewController, CLLocationManagerDelegate {
             locationManager.delegate = self
             locationManager.desiredAccuracy = kCLLocationAccuracyBest
             locationManager.requestWhenInUseAuthorization()
-            
+            // Mostrar ubicación simulada
+                    simulateLocation()
             // Verificar permisos de ubicación y mostrar la ubicación del usuario
             checkLocationAuthorization()
             
@@ -45,18 +47,30 @@ class LocationViewController: UIViewController, CLLocationManagerDelegate {
             }
         }
         
-        // Manejar actualizaciones de ubicación
+    //Manejar actualizaciones de ubicación
         func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-            if let location = locations.last {
-                let region = MKCoordinateRegion(
-                    center: location.coordinate,
-                    latitudinalMeters: 1000,
-                    longitudinalMeters: 1000
-                )
-                mapView.setRegion(region, animated: true)
-            }
+            // Este método no hará nada porque vamos a usar una ubicación simulada
         }
         
+        // Simular ubicación
+        func simulateLocation() {
+            print("Simulando ubicación: Arequipa, Perú")
+            
+            // Configurar región simulada
+            let region = MKCoordinateRegion(
+                center: simulatedLocation,
+                latitudinalMeters: 1000,
+                longitudinalMeters: 1000
+            )
+            mapView.setRegion(region, animated: true)
+            
+            // Agregar un marcador en la ubicación simulada
+            let annotation = MKPointAnnotation()
+            annotation.coordinate = simulatedLocation
+            annotation.title = "Ubicacion actual"
+            annotation.subtitle = "Arequipa, Perú"
+            mapView.addAnnotation(annotation)
+        }
         // Mostrar alerta si los permisos son denegados
         func showAlert(title: String, message: String) {
             let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)

@@ -11,21 +11,33 @@ import MapKit
 class SearchParkingViewController: UIViewController, MKMapViewDelegate {
 
     @IBOutlet weak var mapView: MKMapView!
-
+    @IBOutlet weak var availableParkingButton: UIButton!
     // Coordenadas simuladas para la ubicación actual
     let simulatedLocation = CLLocationCoordinate2D(latitude: -12.0464, longitude: -77.0428) // Lima, Perú
     
-    // Coordenadas de "casas con cocheras"
+    // Coordenadas de "cocheras disponibles"
     let parkingLocations = [
-        ("Casa A", CLLocationCoordinate2D(latitude: -12.047, longitude: -77.043)), // Ejemplo de una cochera
-        ("Casa B", CLLocationCoordinate2D(latitude: -12.048, longitude: -77.044)), // Ejemplo de otra cochera
-        ("Casa C", CLLocationCoordinate2D(latitude: -12.045, longitude: -77.045))  // Ejemplo adicional
+        ("Cochera Disponible 1", CLLocationCoordinate2D(latitude: -12.047, longitude: -77.043)),
+        ("Cochera Disponible 2", CLLocationCoordinate2D(latitude: -12.048, longitude: -77.044)),
+        ("Cochera Disponible 3", CLLocationCoordinate2D(latitude: -12.045, longitude: -77.045)),
+        ("Cochera Disponible 4", CLLocationCoordinate2D(latitude: -12.046, longitude: -77.042)),
+        ("Cochera Disponible 5", CLLocationCoordinate2D(latitude: -12.049, longitude: -77.040)),
+        ("Cochera Disponible 6", CLLocationCoordinate2D(latitude: -12.050, longitude: -77.041)),
+        ("Cochera Disponible 7", CLLocationCoordinate2D(latitude: -12.044, longitude: -77.046)),
+        ("Cochera Disponible 8", CLLocationCoordinate2D(latitude: -12.048, longitude: -77.047)),
+        ("Cochera Disponible 9", CLLocationCoordinate2D(latitude: -12.046, longitude: -77.044)),
+        ("Cochera Disponible 10", CLLocationCoordinate2D(latitude: -12.047, longitude: -77.048)),
+        ("Cochera Disponible 11", CLLocationCoordinate2D(latitude: -12.042, longitude: -77.041)),
+        ("Cochera Disponible 12", CLLocationCoordinate2D(latitude: -12.051, longitude: -77.043)),
+        ("Cochera Disponible 13", CLLocationCoordinate2D(latitude: -12.045, longitude: -77.049)),
+        ("Cochera Disponible 14", CLLocationCoordinate2D(latitude: -12.043, longitude: -77.050)),
+        ("Cochera Disponible 15", CLLocationCoordinate2D(latitude: -12.048, longitude: -77.042))
     ]
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
         mapView.delegate = self
+        availableParkingButton.isHidden = true // Esconde el botón al inicio
         simulateCurrentLocation()
         addParkingLocations()
     }
@@ -57,17 +69,28 @@ class SearchParkingViewController: UIViewController, MKMapViewDelegate {
     // MARK: - MKMapViewDelegate
 
     func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
-        guard let title = view.annotation?.title else { return }
-        
-        // Verificar si es una cochera seleccionada
-        if let parkingTitle = title {
-            print("Seleccionaste: \(parkingTitle)")
+            guard let title = view.annotation?.title else { return }
             
-            // Simular la navegación a otra vista
-            performSegue(withIdentifier: "showParkingDetail", sender: parkingTitle)
-        }
-    }
+            // Verificar si es una cochera seleccionada
+            if let parkingTitle = title {
+                print("Seleccionaste: \(parkingTitle)")
 
-    
-    }
+                // Mostrar mensaje emergente
+                let alert = UIAlertController(
+                    title: "Cochera Seleccionada",
+                    message: "Ir a la lista de cocheras disponibles para más información.",
+                    preferredStyle: .alert
+                )
+                alert.addAction(UIAlertAction(title: "Aceptar", style: .default, handler: { _ in
+                    self.availableParkingButton.isHidden = false // Mostrar el botón
+                }))
+                self.present(alert, animated: true, completion: nil)
+            }
+        }
+
+    // Acción para el botón de "Lista de cocheras disponibles"
+        @IBAction func showParkingList(_ sender: UIButton) {
+            performSegue(withIdentifier: "showParkingList", sender: nil)
+        }
+        }
 
