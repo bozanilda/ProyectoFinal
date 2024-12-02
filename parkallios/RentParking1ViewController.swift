@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import FirebaseDatabase
 class RentParking1ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     // MARK: - IBOutlets
@@ -19,7 +19,8 @@ class RentParking1ViewController: UIViewController, UIPickerViewDelegate, UIPick
     let hours = Array(1...100) // Horas de 1 a 100
     var selectedHour: Int = 1
     let ratePerHour: Double = 4.0 // Cambié a S/4.50 según tu imagen
-    
+    var selectedCochera = "Cochera1" // Cochera seleccionada
+    var databaseRef: DatabaseReference! // Referencia a Firebase Realtime
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,6 +28,8 @@ class RentParking1ViewController: UIViewController, UIPickerViewDelegate, UIPick
         pickerView.delegate = self
         pickerView.dataSource = self
         updatePriceLabel()
+        // Inicializar Firebase Database
+                databaseRef = Database.database().reference()
     }
     
     // MARK: - UIPickerView DataSource
@@ -78,4 +81,31 @@ class RentParking1ViewController: UIViewController, UIPickerViewDelegate, UIPick
         deleteAlert.addAction(UIAlertAction(title: "Aceptar", style: .default, handler: nil))
         present(deleteAlert, animated: true, completion: nil)
     }
-}
+    @IBAction func agregarButtonTapped(_ sender: UIButton) {
+        
+                // Crear el objeto de datos para guardar en Firebase
+        let totalCost = Double(selectedHour) * ratePerHour // Cálculo correcto del costo total
+           let alquilerData: [String: Any] = [
+               "cochera": selectedCochera,
+               "precio": totalCost,
+               "horas": selectedHour
+           ]
+                
+                // Guardar en Realtime Database
+                databaseRef.child("pagos").childByAutoId().setValue(alquilerData) { error, _ in
+                    if let error = error {
+                        print("Error al guardar en Firebase: \(error.localizedDescription)")
+                        self.mostrarAlerta(titulo: "Error", mensaje: "No se pudo agregar el alquiler.")
+                    } else {
+                        print("Datos guardados correctamente")
+                        self.mostrarAlerta(titulo: "Éxito", mensaje: "El alquiler se agregó correctamente.")
+                    }
+                }
+            }
+            
+            func mostrarAlerta(titulo: String, mensaje: String) {
+                let alert = UIAlertController(title: titulo, message: mensaje, preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "Aceptar", style: .default, handler: nil))
+                present(alert, animated: true, completion: nil)
+            }
+    }
